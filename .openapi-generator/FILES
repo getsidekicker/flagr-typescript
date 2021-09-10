@@ -13,7 +13,6 @@ apis/baseapi.ts
 apis/exception.ts
 auth/auth.ts
 configuration.ts
-git_push.sh
 http/http.ts
 http/isomorphic-fetch.ts
 index.ts
@@ -47,10 +46,8 @@ models/SetFlagEnabledRequest.ts
 models/Tag.ts
 models/Variant.ts
 models/all.ts
-package.json
 rxjsStub.ts
 servers.ts
-tsconfig.json
 types/ObjectParamAPI.ts
 types/ObservableAPI.ts
 types/PromiseAPI.ts

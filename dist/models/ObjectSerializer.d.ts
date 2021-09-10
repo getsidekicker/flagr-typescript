@@ -1,0 +1,36 @@
+export * from './Constraint';
+export * from './CreateConstraintRequest';
+export * from './CreateFlagRequest';
+export * from './CreateSegmentRequest';
+export * from './CreateTagRequest';
+export * from './CreateVariantRequest';
+export * from './Distribution';
+export * from './EvalContext';
+export * from './EvalDebugLog';
+export * from './EvalResult';
+export * from './EvaluationBatchRequest';
+export * from './EvaluationBatchResponse';
+export * from './EvaluationEntity';
+export * from './Flag';
+export * from './FlagSnapshot';
+export * from './Health';
+export * from './ModelError';
+export * from './PutDistributionsRequest';
+export * from './PutFlagRequest';
+export * from './PutSegmentReorderRequest';
+export * from './PutSegmentRequest';
+export * from './PutVariantRequest';
+export * from './Segment';
+export * from './SegmentDebugLog';
+export * from './SetFlagEnabledRequest';
+export * from './Tag';
+export * from './Variant';
+export declare class ObjectSerializer {
+    static findCorrectType(data: any, expectedType: string): any;
+    static serialize(data: any, type: string, format: string): any;
+    static deserialize(data: any, type: string, format: string): any;
+    static normalizeMediaType(mediaType: string | undefined): string | undefined;
+    static getPreferredMediaType(mediaTypes: Array<string>): string;
+    static stringify(data: any, mediaType: string): string;
+    static parse(rawData: string, mediaType: string | undefined): any;
+}
